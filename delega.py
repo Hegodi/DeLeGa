@@ -185,7 +185,7 @@ class GameCore:
         pass
 
     def get_number_actions(self):
-        pass
+        self.numActions
 
     def reset(self):
         pass
