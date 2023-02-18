@@ -1,0 +1,32 @@
+TRAINING SETTINGS
+
+result name: train_64
+FPS: 30 
+n_games: 500 
+max_duration_game: 15.0 
+gamma: 0.9900 
+lr: 0.00100 
+epsilon_ini: 1.00000 
+epsilon_dec: 0.00200 
+epsilon_min: 0.00010 
+update_nn_period: 10 
+replace: 100 
+batch_size: 64 
+mem_size: 100000 
+
+
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 64)                320       
+                                                                 
+ dense_1 (Dense)             (None, 64)                4160      
+                                                                 
+ dense_2 (Dense)             (None, 3)                 195       
+                                                                 
+=================================================================
+Total params: 4,675
+Trainable params: 4,675
+Non-trainable params: 0
+_________________________________________________________________
