@@ -14,11 +14,10 @@ class Fruit:
     def update(self, dt):
         self.y += self.v * dt
 
-
 class Game(GameCore):
     def __init__(self, with_graphics = True):
         # 0 -> nothing, 1 -> Left, 2->Right
-        super().__init__(3, 1, )
+        super().__init__(1, 3)
 
         self.with_graphics = with_graphics
         self.width = 200
