@@ -18,3 +18,18 @@
         numpy
         matplotlib
 
+    Usage:
+        Each project has to main python scripts:
+            main_game.py
+            main_training.py
+
+        To run the game with a given model use:
+            python main_game.py path/to/model
+        
+        To run play the game yourself just use:
+            python main_game.py
+
+        To train a model edit the settings in main_training.py and run
+            python main_training.py
+
+        You can change the model you are going to train in agent_*****.py
