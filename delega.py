@@ -50,7 +50,6 @@ class TrainingSettings():
         text += "FPS: %d \n" % self.FPS 
         text += "n_games: %d \n" % self.n_games 
         text += "max_duration_game: %.1f \n" % self.max_duration_game 
-        text += "save_period: %d \n" % self.save_period 
         text += "gamma: %.4f \n" % self.gamma 
         text += "lr: %.5f \n" % self.lr 
         text += "epsilon_ini: %.5f \n" % self.epsilon_ini 
