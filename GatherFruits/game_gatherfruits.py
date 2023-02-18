@@ -1,5 +1,5 @@
 import sys
-sys.path.append("D:\\Programming\\Projects\\MachineLearningPlayground\\")
+sys.path.append("..\\")
 from delega import GameCore
 import pygame, sys
 import random
