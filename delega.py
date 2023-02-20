@@ -99,7 +99,7 @@ class ReplayBuffer():
 class AgentBase():
 
     def load(self, modelpath):
-        self.q_eval = load_model(modelpath)
+        self.q_eval = load_model(modelpath, compile=False)
 
     def chose_action(self, state):
         state = np.array([state])
